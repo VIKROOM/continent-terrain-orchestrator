@@ -1,0 +1,11 @@
+{
+  "mcp_servers": [
+    {
+      "id": "filesystem_inspector",
+      "name": "Read-Only Project Inspector",
+      "description": "Inspects existing terrain config files and directory state before proposing changes.",
+      "enabled_by_default": false,
+      "requires_approval_for_writes": true
+    }
+  ]
+}

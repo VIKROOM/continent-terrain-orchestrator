@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": "perlin_fbm_continent_design",
+      "name": "Perlin / FBM Continent & Ocean Mask",
+      "description": "Designs a fixed-seed continent with multi-octave noise and ocean borders without literal reference copying.",
+      "constraints": [
+        "no_vegetation_or_props",
+        "no_buildings_or_towns_placed",
+        "no_literal_reference_copy",
+        "deterministic_seed_required"
+      ]
+    },
+    {
+      "id": "flat_city_slots_planner",
+      "name": "Flat City & Town Slots Planner",
+      "description": "Defines flat terrain zones with smooth blend margins for future cities/towns across multiple RPG races.",
+      "constraints": [
+        "low_slope_flat_zones",
+        "smooth_elevation_blend",
+        "no_placed_structures"
+      ]
+    },
+    {
+      "id": "skill_combat_readable_topography",
+      "name": "Skill-Combat Readable Topography",
+      "description": "Avoids extreme jagged spikes or unnavigable micro-cliffs in main traversal zones for skill-based RPG combat.",
+      "constraints": [
+        "smooth_traversal_gradients",
+        "clear_line_of_sight_corridors"
+      ]
+    }
+  ]
+}
