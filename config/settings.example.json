@@ -1,0 +1,25 @@
+{
+  "unity_project_root": "C:/Path/To/Your/UnityProject",
+  "target_terrain_config_relpath": "Assets/_Project/TerrainData/Configs/continent_master.json",
+  "unity_presets_relpath": "Assets/_Project/TerrainData/Presets/unity_terrain_presets.json",
+  "state_dir": "state",
+  "checkpoints_dir": "state/checkpoints",
+  "history_dir": "state/history",
+  "stages": [
+    "foundation_check",
+    "reference_and_options",
+    "selection_gate",
+    "diff_and_approval",
+    "apply_changes",
+    "unity_handoff"
+  ],
+  "default_enabled_skills": [
+    "perlin_fbm_continent_design",
+    "flat_city_slots_planner"
+  ],
+  "default_enabled_mcp": [],
+  "recovery": {
+    "auto_checkpoint_after_stage": true,
+    "allow_rollback_to_checkpoint": true
+  }
+}
